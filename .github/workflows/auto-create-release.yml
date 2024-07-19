@@ -20,5 +20,5 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          token: ${{ secrets.PAT_GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           bodyFile: 'extractedBody.md'
